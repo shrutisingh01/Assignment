@@ -1,0 +1,19 @@
+JVM and GC Questions 
+
+Ans.1 - d)JRE
+
+Ans.2 - Heap is used for dynamic memory allocation.Variables allocated on the heap have their memory allocated at run time.
+        Accessing this memory is a bit slower, but the heap size is only limited by the size of virtual memory .
+        Stack is used for static memory allocation. It is always reserved in the LIFO order. 
+
+Ans.3 - d) Synonym to JIT
+Ans.4 -NO, JVMs are platform depndent
+
+Ans.5 - It is a compiler. JVMs take bytecode and compile it into native code when first needed.
+Ans.6 - JVM is Java Virtual Machine.It runs Java bytecode.
+        JDK is Java Developer Kit. It is needed to compile Java source code.
+        JRE is Java Runtime Environment.It is needed to run a Java program and contains a JVM.
+
+Ans.7 - System gc() can be called to periodically but responsibilty of executing the task lies with jvm.
+Ans 8 - Java ClassLoader loads that class into memory.It has responsibilites of reading libraries and loading the classes in the libraries.
+Ans 10- Java programs are first converted into bytecode which the JVM then executes at runtime.
